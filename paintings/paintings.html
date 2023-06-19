@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../all.css" />
+    <link rel="stylesheet" href="../css/painting.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="section">
+        <div class="subtitle">ЖИВЫЕ КАРТИНЫ</div>
+        <div class="content">
+          <div class="content-1">
+            <div class="content__head-1">
+              <h2>Название картины</h2>
+              <img src="/img_index/live-picture.png" alt="" />
+              <button class="look" id="look1">СМОТРЕТЬ</button>
+              <div id="fullscreen1">231123131231</div>
+              <div id="x">X</div>
+            </div>
+          </div>
+          <div class="content-1">
+            <div class="content__head-1">
+              <h2>Название картины</h2>
+              <img src="/img_index/live-picture.png" alt="" />
+              <button class="look" id="look2">СМОТРЕТЬ</button>
+            </div>
+          </div>
+          <div class="content-1">
+            <div class="content__head-1">
+              <h2>Название картины</h2>
+              <img src="/img_index/live-picture.png" alt="" />
+              <button class="look" id="look3">СМОТРЕТЬ</button>
+            </div>
+          </div>
+        </div>
+        <form action="../menu.html">
+          <button class="btn" id="btn">НАЗАД</button>
+        </form>
+      </section>
+    </div>
+
+    <script src="../script/menu.js"></script>
+    <script>
+      const look1 = document.getElementById('look1')
+      const fullscreen1 = document.getElementById('fullscreen1')
+      const x = document.getElementById('x')
+
+
+      look1.addEventListener('click', () => {
+        fullscreen1.style.display = 'block'
+        x.style.display = 'block'
+      })
+      x.addEventListener('click', () => {
+        fullscreen1.style.display = 'none'
+        x.style.display = 'none'
+      })
+    </script>
+  </body>
+</html>

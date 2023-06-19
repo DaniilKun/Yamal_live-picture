@@ -1,0 +1,110 @@
+.section {
+  width: auto;
+  height: 2160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  position: fixed;
+  top: 1843px;
+  left: 2825px;
+width: 777px;
+height: 150px;
+
+background: #FFFFFF;
+opacity: 0.9;
+border: 5px solid #4D7191;
+border-radius: 60px;
+font-family: 'CeraPro';
+font-style: normal;
+font-weight: 700;
+font-size: 78px;
+line-height: 98px;
+text-align: center;
+
+color: #3373BB;
+}
+/* .slider {
+  width: 3840px;
+  background-color: aqua;
+  top: 0;
+  left: 0;
+  height: 2160px;
+  overflow: hidden;
+  position: absolute;
+}
+.slider__line {
+  position: relative;
+  width: 11520px;
+  display: flex;
+  transition: all 1s;
+} */
+.slider{
+  position: relative;
+  width: 3840px;
+  height: 2160px;
+  overflow: hidden;
+}
+.slide{
+opacity: 0;
+transition: 2s;
+}
+.slide_active{
+opacity: 1;
+}
+.slide1 h2{
+  position: absolute;
+  top: 1816px;
+  left: 964px;
+}
+.slide2 h2{
+  position: absolute;
+  top: 1816px;
+  left: 964px;
+}
+.slide3 h2{
+  position: absolute;
+  top: 1816px;
+  left: 964px;
+}
+.slide1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img_sliderFon/slideFon1.png);
+  font-family: "CeraPro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 164px;
+  line-height: 206px;
+  text-align: center;
+  color: #ffffff;
+}
+.slide2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img_sliderFon/slideFon2.png);
+  font-family: "CeraPro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 164px;
+  line-height: 206px;
+  text-align: center;
+  color: #ffffff;
+}
+.slide3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img_sliderFon/slideFon3.png);
+  font-family: "CeraPro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 164px;
+  line-height: 206px;
+  text-align: center;
+  color: #4270a4;
+}

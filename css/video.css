@@ -1,0 +1,129 @@
+section {
+  background: url(../img_index/fon.jpg);
+  width: 3840px;
+  height: 2160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subtitle {
+  position: absolute;
+  left: 674px;
+  top: 260px;
+
+  font-family: "CeraPro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 82px;
+
+  color: #ffffff;
+}
+.btn {
+  position: absolute;
+  width: 550px;
+  height: 127.26px;
+  left: 3170px;
+  top: 1929px;
+
+  background: #ffffff;
+  opacity: 0.9;
+  border: 5px solid #4d7191;
+  border-radius: 75px;
+  font-family: "CeraPro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 82px;
+  text-align: center;
+
+  color: #3373bb;
+}
+
+.container__slider {
+  /* background-color: azure; */
+  width: 2500px;
+  height: 1000px;
+}
+
+.slider {
+  position: absolute;
+  left: 939px;
+  width: 2550px;
+  height: 936px;
+  /* border: 10px solid black; */
+  margin: 50px auto;
+  padding-left: 30px;
+  overflow: hidden;
+}
+.slider-line {
+  height: 936px;
+  width: 5034px;
+  /* background-color: orange; */
+  gap: 95px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all 1s;
+}
+.slider-line img {
+  width: 1211px;
+  height: 936px;
+}
+.active1 {
+  position: absolute;
+  width: 1154px;
+  height: 883px;
+  left: 34px;
+  top: 16px;
+
+  background: rgba(12, 40, 64, 0.45);
+  border-radius: 60px;
+  z-index: 99;
+}
+.bot {
+  position: absolute;
+  width: 1161px;
+  height: 218px;
+  right: 20px;
+  bottom: 37px;
+
+  background: rgba(12, 40, 64, 0.6);
+  border-radius: 0px 0px 60px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "CeraPro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 65px;
+  text-align: center;
+  color: #ffffff;
+  z-index: 99;
+}
+.next {
+  position: absolute;
+  top: 989px;
+  left: 3555px;
+  background: none;
+  border: none;
+  width: 165px;
+  height: 165px;
+  font-size: 40px;
+  background-image: url(/photo_archive/img/btn_next.png);
+  background-size: cover;
+}
+.prev {
+  position: absolute;
+  top: 989px;
+  left: 674px;
+  background: none;
+  border: none;
+  width: 165px;
+  height: 165px;
+  font-size: 40px;
+  background-image: url(/photo_archive/img/btn_back.png);
+  background-size: cover;
+}
+

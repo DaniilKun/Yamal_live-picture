@@ -1,0 +1,86 @@
+
+/* !!!!!!!! */
+.slider img {
+  cursor: pointer;
+}
+
+
+
+section {
+  background: url(../img_index/fon.jpg);
+  width: 3840px;
+  height: 2160px;
+}
+
+.subtitle {
+  position: absolute;
+  left: 674px;
+  top: 260px;
+
+  font-family: 'CeraPro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 82px;
+
+  color: #FFFFFF;
+}
+
+.btn {
+  position: absolute;
+  width: 550px;
+  height: 127.26px;
+  left: 3170px;
+  top: 1929px;
+
+  background: #FFFFFF;
+  opacity: 0.9;
+  border: 5px solid #4D7191;
+  border-radius: 75px;
+  font-family: 'CeraPro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 82px;
+  text-align: center;
+  color: #3373BB;
+}
+
+
+
+
+/* Слайдер */
+.block_btn_slider {
+  position: relative;
+  width: 3100px;
+  top: 1000px;
+  left: 57%; transform: translate(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider {
+  white-space: nowrap;
+  position: relative;
+  top: 250px;
+  left: 57%;
+  transform: translate(-50%);
+  width: 2530px;
+  height: 1270px;
+  overflow: hidden;
+}
+.slide_container {
+  position: relative;
+  overflow: hidden;
+  
+}
+.slide_container_img {
+  display: flex;
+  position: relative;
+  transition: all ease 3s;
+  left: 0;
+}
+.slide_container_img img {
+  width: 769px;
+  padding: 0 105px 70px 0;
+}
