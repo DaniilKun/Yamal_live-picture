@@ -1,6 +1,6 @@
 # Yamal-live-pictures
 
-Version 0.2
+Version 0.5
 
 Ссылка на макет: 
     https://www.figma.com/file/dOXEBwV8WWYFVfYB887GMI/%D0%96%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D1%8B?type=design&node-id=0-1&t=1tOX5vuw0FN67gtA-0

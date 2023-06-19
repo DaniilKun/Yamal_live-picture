@@ -1,0 +1,9 @@
+.container_img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 50px;
+    right: 50px;
+    background-image: url(/img_index/close-img.png);
+    background-repeat: no-repeat;
+}

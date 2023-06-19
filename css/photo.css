@@ -16,7 +16,6 @@ section {
   position: absolute;
   left: 674px;
   top: 260px;
-
   font-family: 'CeraPro';
   font-style: normal;
   font-weight: 700;
@@ -50,7 +49,7 @@ section {
 
 
 /* Слайдер */
-.block_btn_slider {
+/* .block_btn_slider {
   position: relative;
   width: 3100px;
   top: 1000px;
@@ -83,4 +82,8 @@ section {
 .slide_container_img img {
   width: 769px;
   padding: 0 105px 70px 0;
-}
+} */
+
+
+
+

@@ -126,4 +126,5 @@ section {
   background-image: url(/photo_archive/img/btn_back.png);
   background-size: cover;
 }
+.swiper-slide button {background-color: transparent; border: none;}
 

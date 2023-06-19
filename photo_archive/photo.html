@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../all.css" />
+  <!-- <link rel="stylesheet" href="../all.css" /> -->
+  <link rel="stylesheet" href="./swiper-bundle.min.css">
+  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="/css/photo.css" />
   <link rel="stylesheet" href="/all.css">
-  <link rel="stylesheet" href="img_slider/img_slider.css">
+  <!-- <link rel="stylesheet" href="img_slider/img_slider.css"> -->
   <title>Document</title>
 </head>
 
@@ -16,7 +18,7 @@
     <section class="section">
       <div class="subtitle">ФОТОАРХИВ</div>
       <!--слайдер -->
-      <div class="block_btn_slider">
+      <!-- <div class="block_btn_slider">
         <img src="./img/btn_back.png" class="slider_back" alt="">
         <img src="./img/btn_next.png" class="slider_next" alt="">
       </div>
@@ -46,30 +48,57 @@
                 <img src="/photo_archive/img/people_img.png" alt="">
                 <img src="/photo_archive/img/people_img.png" alt="">
               </div>
-            </div>
-            
-            <!-- <div>
-              <img src="/photo_archive/img/people_img.png" alt="">
-              <img src="/photo_archive/img/people_img.png" alt="">
-              <img src="/photo_archive/img/people_img.png" alt="">
-            </div>
-            <div>
-              <img src="/photo_archive/img/people_img.png" alt="">
-              <img src="/photo_archive/img/people_img.png" alt="">
-              <img src="/photo_archive/img/people_img.png" alt="">
             </div> -->
+
+      <div class="inner">
+        <div class="gallary">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="foto-slide swiper-slide img_bottom"><img src="/photo_archive/img/people_img.png"></div>
+              <div class="foto-slide swiper-slide"><img src="/photo_archive/img/people_img2.png"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="foto-slide swiper-slide img_bottom"><img src="/photo_archive/img/people_img2.png"></div>
+              <div class="foto-slide swiper-slide"><img src="/photo_archive/img/people_img.png"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="foto-slide swiper-slide img_bottom"><img src="/photo_archive/img/people_img2.png"></div>
+              <div class="foto-slide swiper-slide"><img src="/photo_archive/img/people_img.png"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="foto-slide swiper-slide img_bottom"><img src="/photo_archive/img/people_img.png"></div>
+              <div class="foto-slide swiper-slide"><img src="/photo_archive/img/people_img2.png"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="foto-slide swiper-slide img_bottom"><img src="/photo_archive/img/people_img.png"></div>
+              <div class="foto-slide swiper-slide"><img src="/photo_archive/img/people_img.png"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="foto-slide swiper-slide img_bottom"><img src="/photo_archive/img/people_img.png"></div>
+              <div class="foto-slide swiper-slide"><img src="/photo_archive/img/people_img.png"></div>
+            </div>
           </div>
         </div>
-        
+        <div class="btn-prev"></div>
+        <div class="btn-next"></div>
       </div>
-      <form action="../menu.html">
-        <button class="btn" id="btn">НАЗАД</button>
-      </form>
-    </section>
+
+
+  </div>
   </div>
 
+  </div>
+  <form action="../menu.html">
+    <button class="btn" id="btn">НАЗАД</button>
+  </form>
+  </section>
+  </div>
+
+  <script src="./swiper-bundle.min.js"></script>
+  <script src="./index.js"></script>
   <script src="../script/slider_photo.js"></script>
   <script src="photo.js"></script>
+  <script src="/script/index_return.js"></script>
 </body>
 
 </html>

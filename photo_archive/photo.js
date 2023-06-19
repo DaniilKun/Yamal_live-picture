@@ -1,5 +1,6 @@
-// !!!!!!!!!!!
-const images = document.querySelectorAll(".slider img");
+// Связка сладеров
+
+const images = document.querySelectorAll(".inner img");
 for (const [i, image] of Object.entries(images)) {
   image.dataset.id = i
   image.addEventListener("click", () => {
