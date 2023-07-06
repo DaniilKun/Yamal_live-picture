@@ -1,0 +1,29 @@
+.section{
+  width: 3840px;
+  height: 2160px;
+}
+
+ img{
+  width: 3840px;
+  height: 2160px;
+ }
+.btn {
+  position: fixed;
+  top: 1843px;
+  left: 2825px;
+width: 777px;
+height: 150px;
+
+background: #FFFFFF;
+opacity: 0.9;
+border: 5px solid #4D7191;
+border-radius: 60px;
+font-family: 'CeraPro';
+font-style: normal;
+font-weight: 700;
+font-size: 78px;
+line-height: 98px;
+text-align: center;
+
+color: #3373BB;
+}

@@ -42,7 +42,7 @@ section {
 .content {
   display: flex;
   gap: 85px;
-  margin-top: 643px;
+  margin-top: 543px;
   margin-left: 753px;
 }
 
@@ -50,11 +50,10 @@ section {
   position: relative;
   width: 906.82px;
   height: 158.65px;
-  background: rgba(12, 40, 64, 0.75);
-  border-radius: 60px 60px 0px 0px;
+  
 }
 
-.content__head-1 h2 {
+/* .content__head-1 h2 {
   font-family: "CeraPro";
   font-style: normal;
   font-weight: 400;
@@ -63,13 +62,13 @@ section {
   text-align: center;
   padding-top: 47px;
   color: #ffffff;
-}
+} */
 
 .content__head-1 img {
   position: absolute;
   left: -19px;
   /* z-index: -1; */
-  top: 135px;
+  /* top: 35px; */
 }
 
 .look {
@@ -99,7 +98,49 @@ section {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('/photo_archive/img/people_img2.png');
+  background-image: url('../paintings/Live_pic3.jpg');
+  background-size: contain;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-color: black;
+  display: none;
+}
+#fullscreen2 {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../paintings/Live_pic2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-color: black;
+  display: none;
+}
+#fullscreen3 {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../paintings/Live_pic5.jpg');
+  background-size: contain;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-color: black;
+  display: none;
+}
+#fullscreen4 {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../paintings/Live_pic4.jpg');
   background-size: contain;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
@@ -109,11 +150,12 @@ section {
 
 #x {
   z-index: 2;
+  display: none;
   position: fixed;
   width: 120px;
   height: 120px;
   top: 50px;
-  right: 50px;
+  left: 3630px;
   background-image: url(/img_index/close-img.png);
   background-repeat: no-repeat;
 }

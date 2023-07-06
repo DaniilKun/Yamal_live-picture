@@ -14,25 +14,41 @@
         <div class="content">
           <div class="content-1">
             <div class="content__head-1">
-              <h2>Название картины</h2>
-              <img src="/img_index/live-picture.png" alt="" />
-              <button class="look" id="look1">СМОТРЕТЬ</button>
+
+              <img src="./Live_pic3.jpg" id="look1" alt="" style="width: 907px;top: -90px; left: 47px;"/>
+              <!-- <button class="look" id="look1">СМОТРЕТЬ</button> -->
               <div id="fullscreen1">231123131231</div>
               <div id="x">X</div>
             </div>
           </div>
           <div class="content-1">
             <div class="content__head-1">
-              <h2>Название картины</h2>
-              <img src="/img_index/live-picture.png" alt="" />
-              <button class="look" id="look2">СМОТРЕТЬ</button>
+
+              <img src="./Live_pic2.jpg" id="look2" alt="" style="width: 750px;
+              top: -190px;
+              left: 65px;"/>
+              <!-- <button class="look" id="look1">СМОТРЕТЬ</button> -->
+              <div id="fullscreen2">231123131231</div>
+              <div id="x">X</div>
             </div>
           </div>
           <div class="content-1">
             <div class="content__head-1">
-              <h2>Название картины</h2>
-              <img src="/img_index/live-picture.png" alt="" />
-              <button class="look" id="look3">СМОТРЕТЬ</button>
+
+              <img src="./Live_pic5.jpg" id="look3" alt="" style="width: 750px;
+              top: 665px;
+              left: -925px;"/>
+              <!-- <button class="look" id="look1">СМОТРЕТЬ</button> -->
+              <div id="fullscreen3">231123131231</div>
+              <div id="x">X</div>
+          </div>
+          <div class="content-1">
+            <div class="content__head-1">
+
+              <img src="./Live_pic4.jpg" id="look4" alt="" style="width: 907px;top: -250px; left: -70px;"/>
+              <!-- <button class="look" id="look1">СМОТРЕТЬ</button> -->
+              <div id="fullscreen4">231123131231</div>
+              <div id="x">X</div>
             </div>
           </div>
         </div>
@@ -45,9 +61,14 @@
     <script src="../script/menu.js"></script>
     <script>
       const look1 = document.getElementById('look1')
+      const look2 = document.getElementById('look2')
+      const look3 = document.getElementById('look3')
+      const look4 = document.getElementById('look4')
       const fullscreen1 = document.getElementById('fullscreen1')
+      const fullscreen2 = document.getElementById('fullscreen2')
+      const fullscreen3 = document.getElementById('fullscreen3')
+      const fullscreen4 = document.getElementById('fullscreen4')
       const x = document.getElementById('x')
-
 
       look1.addEventListener('click', () => {
         fullscreen1.style.display = 'block'
@@ -57,6 +78,31 @@
         fullscreen1.style.display = 'none'
         x.style.display = 'none'
       })
+      look2.addEventListener('click', () => {
+        fullscreen2.style.display = 'block'
+        x.style.display = 'block'
+      })
+      x.addEventListener('click', () => {
+        fullscreen2.style.display = 'none'
+        x.style.display = 'none'
+      })
+      look3.addEventListener('click', () => {
+        fullscreen3.style.display = 'block'
+        x.style.display = 'block'
+      })
+      x.addEventListener('click', () => {
+        fullscreen3.style.display = 'none'
+        x.style.display = 'none'
+      })
+      look4.addEventListener('click', () => {
+        fullscreen4.style.display = 'block'
+        x.style.display = 'block'
+      })
+      x.addEventListener('click', () => {
+        fullscreen4.style.display = 'none'
+        x.style.display = 'none'
+      })
+      
     </script>
     <script src="/script/index_return.js"></script>
   </body>
