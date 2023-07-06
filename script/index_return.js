@@ -11,7 +11,7 @@ var no_active_delay = 600; // Количество секунд простоя �
   }
   function updateChat() {
     if (now_no_active >= no_active_delay) { // Проверяем не превышен ли "предел активности" пользователя
-      location.href='/start.html'
+      location.href='/index.html'
       return;
     }
   }
